@@ -11,9 +11,10 @@
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@nuxt/http": "latest",
+    "@nuxt/http": "^0.6.4",
     "express": "latest",
-    "nuxt": "latest"
+    "mysql2": "^3.10.2",
+    "nuxt": "^2.18.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

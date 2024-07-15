@@ -57,6 +57,10 @@ export default {
     '@nuxt/http'
   ],
 
+  http: {
+    // proxyHeaders: false
+  },
+
   /*
   ** Server Middleware
   */
